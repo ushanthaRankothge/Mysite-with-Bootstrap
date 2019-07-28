@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  text-align: center;
+  /*all center to middle that doesnt have width*/
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625em;
+  margin: 50px auto 0 auto;
+  /*top right bottom left*/
+  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+  line-height: 2;
+  padding: 10px;
+  /*space put between other p*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.0rem;
+  padding-top: 20px;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
+  color: #545454;
+  font-size: 1.0rem;
+  list-style-type: none;
+  /*no bullets*/
+}
+
+p {
+  line-height: 2;
+  /*double height on lines*/
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  /* display style color and width*/
+  border-bottom: none;
+  /*one line of border only*/
+  width: 4%;
+  /*scale when website scale*/
+  margin: 100px auto;
+  /*keep center in middle with auto*/
+}
+
+a {
+  color: #11999E;
+  font-family: Montserrat, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  /* change default underline for a*/
+}
+
+a:hover {
+  color: #545454;
+  /*sudo feature*/
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  /* 100 on top bottom of container and 1 on left and right*/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  /*top left&right bottom. default have a margin, to get ride of it add padding more than the website em*/
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.webicons {
+  border-radius: 50%;
+}
+
+.webicons2 {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webicons3 {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  /*for wrapping text only*/
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  /* to give more space*/
+  font-size: 0.75rem;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+  /* top bottom 40*/
+}
+
+.btn {
+  background: #11Cdd4;
+  background-image: -webkit-linear-gradient(top, #11Cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11Cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11Cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11Cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11Cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.mywork {
+  margin: auto;
+  text-align: center;
+}
+
+.worklist {
+  margin: auto;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.bottomlinks{
+  padding-bottom: 20px;
+}
